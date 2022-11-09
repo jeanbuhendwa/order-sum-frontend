@@ -16,12 +16,13 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 300px;
-    margin: 50px;
+    margin-top: 50px;
 }
 .main-container {
     background-color: white;
     width: 300px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .main-container .image-container img{
     width: 300px;
@@ -55,6 +56,60 @@ body {
     padding: 10px 12px;
     background-color: #EBF5FB;
     border-radius: 8px;
+}
+.main-container .sum-container .payment-container img{
+    width: 40px;
+    height: 40px;
+}
+.main-container .sum-container .payment-container .price h2 {
+    font-size: 0.8rem;
+    color:hsl(210, 29%, 24%);
+}
+.main-container .sum-container .payment-container .price p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color:hsl(210, 9%, 55%);
+}
+.main-container .sum-container .payment-container h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #1E1FCD;
+    text-decoration: underline;
+    margin-left: 22px;
+    transition: all 0.5s ease-in-out;
+}
+.main-container .sum-container .payment-container h3:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.main-container .sum-container .payment-button {
+    background-color: #1E1FCD;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 20px 0px 10px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    transition: all 0.5s ease-in-out;
+}
+.main-container .sum-container .payment-button:hover {
+    cursor: pointer;
+    box-shadow: 2px 10px 10px #AED6F1;
+}
+.main-container .sum-container .cancel-button {
+    background-color: white;
+    color: hsl(210, 29%, 24%);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+}
+.main-container .sum-container .cancel-button:hover {
+    color: hsl(210, 29%, 24%);
+    cursor: pointer;
 }
   /* <style>
   .attribution { font-size: 11px; text-align: center; }
